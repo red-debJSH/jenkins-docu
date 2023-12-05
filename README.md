@@ -130,15 +130,15 @@ sudo cat /var/lib/docker/volumes/jenkins-ci-cd_certs_client/_data/key.pem
 ### 3.2.- Crea las credenciales para el CLOUD en jenkins
 - > En la consola de jenkins ___***Dashboard>Manage Jenkins>Credentials>System>Global credentials>New credentials***___
 
-![alt text](./New_credential_cloud_18_1.png)
-![alt text](./New_credential_cloud_18_2.png)
+![alt text](./images/New_credential_cloud_18_1.png)
+![alt text](./images/New_credential_cloud_18_2.png)
 
 > ⚠️ ___***Copia el certificado del cliente, del servidor y la llave en los campos correspondientes***___
 ### 3.3.- Crea las credenciales para el agente  SSH de jenkins
 - > En la consola de jenkins ___***Dashboard>Manage Jenkins>Credentials>System>Global credentials>New credentials***___
 
-![alt text](./New_credential_ssh_18_1.png)
-![alt text](./New_credential_ssh_18_2.png)
+![alt text](./images/New_credential_ssh_18_1.png)
+![alt text](./images/New_credential_ssh_18_2.png)
 
 > ⚠️ ___***Copia la llave del agente SSH generado en el paso 3.1***___
 
@@ -148,11 +148,11 @@ sudo cat /var/lib/docker/volumes/jenkins-ci-cd_certs_client/_data/key.pem
 - > En la consola de jenkins ___***Dashboard>Node>New node***___ 
 - > Define un nombre de nodo y presiona ***create***
 
-![alt text](./New_node_ssh_18.png)
-![alt text](./New_node_ssh_18_1.png)
-![alt text](./New_node_ssh_18_2.png)
-![alt text](./New_node_ssh_18_3.png)
-![alt text](./New_node_ssh_18_4.png)
+![alt text](./images/New_node_ssh_18.png)
+![alt text](./images/New_node_ssh_18_1.png)
+![alt text](./images/New_node_ssh_18_2.png)
+![alt text](./images/New_node_ssh_18_3.png)
+![alt text](./images/New_node_ssh_18_4.png)
 
 > ⚠️ ___***Elige las credenciales correspondientes para el agente de SSH***___
 
@@ -160,15 +160,15 @@ sudo cat /var/lib/docker/volumes/jenkins-ci-cd_certs_client/_data/key.pem
 - > En la consola de jenkins ___***Dashboard>Manage jenkins>Clouds>New cloud***___
 - > Define un nombre de cloud y presiona ***create***
 
-![alt text](./New_cloud_18.png)
-![alt text](./New_cloud_18_1.png)
-![alt text](./New_cloud_18_2.png)
+![alt text](./images/New_cloud_18.png)
+![alt text](./images/New_cloud_18_1.png)
+![alt text](./images/New_cloud_18_2.png)
 > ⚠️ ___***Asegurate de probar la conexión con el CLOUD***___
 
 ## 5.0.- Instala las extensiones necesarias para jenkins
 - > En la consola de jenkins ___***Dashboard>Manage jenkins>Plugins>Available plugins***___
 
-![alt text](./Plugins.png)
+![alt text](./images/Plugins.png)
 - > Busca e instala los siguientes paquetes
 - - >Docker Pipeline
 - - >Docker plugin
